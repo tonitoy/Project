@@ -11,3 +11,8 @@ p {
     font-family: verdana;
     font-size: 20px;
 } 
+
+#city {
+    background-color: tomato;
+    padding: 10px;
+} 
