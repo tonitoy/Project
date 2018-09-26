@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>The Woodlands</title>
+</head>
+<body>
+<div style="background-color:moccasin">
+<h1 align="center">The Woodlands</h1>
+<!--Add your own city image-->
+<img src="https://www.woodlandsjournal.com/wp-content/uploads/2016/06/The-Woodlands-Waterway-1.jpg">
+</div>
+<!--Add your own city information-->
+<div style="background-color:beige">
+<h2>Brief history</h2>
+<p>The Woodlands is a master planned community and census-designated place (CDP) in the U.S. state of Texas in the Houston–The Woodlands–Sugar Land metropolitan area. It is primarily located in Montgomery County, with portions extending into Harris County. The Woodlands is also a great place to work. Many large companies have chosen to make The Woodlands their corporate home including Chevron Phillips, Huntsman, Anadarko, Hewitt Associates, Lexicon Pharmaceuticals, Mersk Sealand, and Woodforest National Bank. Although many residents still commute into Houston, the number of local job opportunities grows every year.</p>
+
+
+<ul>
+   <li>Population:~ 115,000 </li>
+   <li>Median household income: $113,243</li>
+   <li>White: 88.4%</li>
+   <li>Hispanic: 12.3%</li>
+   <li>African American: 2.4%</li>
+   <li>Asian: 0.3%</li>
+</ul>	
+   
+
+</div>
+</body>
+
+</html> 
