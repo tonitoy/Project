@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: maroon;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>College Station</h1>
+  <h3><em>Home of Texas A&M University<em></h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Population: 104,684</div>
+    <div class="menuitem">Median Income: $46,341</div>
+    <div class="menuitem">White: 66.6%</div>
+    <div class="menuitem">Hispanic: 14.4%</div>
+    <div class="menuitem">Black: 7.1%</div>
+    <div class="menuitem">Asian: 9.7%</div>
+    <div class="menuitem">Other: 0.3%</div>			
+
+  </div>
+
+  <div class="main">
+    <h2>Brief History</h2>
+    <p>The city owes both its name and existence to the university's location along a railroad.The site was chosen as the location for the proposed Agricultural and Mechanical College of Texas, a land-grant school</p>
+    <p>The population for the Bryan-College Station metropolitan area will range from an estimated 250,846 to 271,773 by 2030.<p>
+    
+    <img src="http://students.cs.tamu.edu/ldmm/dap/images/tamulogo.jpg" style="width:90%">
+  </div>
+
+  <div class="right">
+    <h2>Eat?</h2>
+    <p>College Station has notable restuarants such as Napa Flats, Tanaka Ramen, and Aggie Owned BBQ joint, Good Bull</p>
+    <h2>Family?</h2>
+    <p>TAMU offers a variety of Family Focused fun such as the Gardens on West Campus and Aggie Football</p>
+    <h2>Fun?</h2>
+    <p>Northgate is popular day and night bar street that offers a range of activities for college students. Grand Station Entertainment also offers fun lazer tag and bowling activites.</p>
+  </div>
+</div>
+
+
+
+</body>
+</html>
